@@ -11,7 +11,11 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'active_model_serializers'
 
+
 group :development, :test do
+  gem 'rspec-rails', '~> 2.14'
+  gem 'factory_girl_rails'
+  gem 'ffaker'
   gem 'sqlite3'
   gem 'byebug'
   gem 'web-console', '~> 2.0'
